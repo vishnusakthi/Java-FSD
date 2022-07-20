@@ -1,0 +1,26 @@
+package PracticeProject6;
+
+public class StringBuffer {
+	public static void main(String[] args) {
+	
+	System.out.println("\n");
+	System.out.println("Creating StringBuffer");
+	
+	StringBuffer s=new StringBuffer("Welcome to Java!");
+	s.append("Enjoy your learning");
+	System.out.println(s);
+
+	
+	s.insert(0, 'w');
+	System.out.println(s);
+
+	
+	StringBuffer sb=new StringBuffer("Hello");
+	sb.replace(0, 2, "hEl");
+	System.out.println(sb);
+
+	
+	sb.delete(0, 1);
+	System.out.println(sb);
+
+}
