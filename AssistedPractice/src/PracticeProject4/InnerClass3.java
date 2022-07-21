@@ -1,7 +1,7 @@
 package PracticeProject4;
 
-public class InnerClass3 {
-	abstract class AnonymousInnerClass {
+
+abstract class AnonymousInnerClass {
 		   public abstract void display();
 		}
 
@@ -19,4 +19,4 @@ public class InnerClass3 {
 		}
 		
 		}
-}
+
