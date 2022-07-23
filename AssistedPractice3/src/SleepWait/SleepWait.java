@@ -1,4 +1,4 @@
-package Multithreading;
+package SleepWait;
 
 public class SleepWait {
 private static Object LOCK= new Object();
@@ -23,4 +23,5 @@ private static Object LOCK= new Object();
 				System.out.println("Error Occured: "+e);
 			    }
 		}
+
 }

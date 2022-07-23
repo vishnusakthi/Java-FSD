@@ -1,6 +1,6 @@
 package OOPS;
-
-public class Encapsulate {
+class Encapsulate 
+{ 
     private String Name; 
     private int Roll; 
     private int Age;
@@ -29,18 +29,15 @@ public class Encapsulate {
       Roll = newRoll; 
     } 
 }
-public class TestEncapsulation 
-{     
+public class TestEncapsulation {
     public static void main (String[] args)  
     { 
         Encapsulate obj = new Encapsulate(); 
-        obj.setName("Harsh"); 
-        obj.setAge(19); 
-        obj.setRoll(51); 
+        obj.setName("Vishnu"); 
+        obj.setAge(22); 
+        obj.setRoll(40); 
         System.out.println("My name: " + obj.getName()); 
         System.out.println("My age: " + obj.getAge()); 
         System.out.println("My roll: " + obj.getRoll());      
     } 
-
-
 }

@@ -1,6 +1,7 @@
 package ExceptionHandling;
-public class MyException extends Exception {
-	String str1;
+
+class MyException extends Exception {
+	   String str1;
 	   MyException(String str2) {
 		str1=str2;
 	   }
@@ -8,8 +9,9 @@ public class MyException extends Exception {
 		return ("MyException Occurred: "+str1) ;
 	   }
 	}
-	class Example1 {
-	   public static void main(String args[]) {
+
+public class Example1 {
+	public static void main(String args[]){
 		try{
 			System.out.println("Starting of try block");
 			// I'm throwing the custom exception using throw
@@ -20,5 +22,4 @@ public class MyException extends Exception {
 			System.out.println(exp) ;
 		}
 	   }
-
 }
