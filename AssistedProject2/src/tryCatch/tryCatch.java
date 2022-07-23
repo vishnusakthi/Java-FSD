@@ -16,4 +16,5 @@ public class tryCatch {
             System.out.println("The array is of size " + array.length);
         }
     }
+
 }
