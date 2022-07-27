@@ -1,11 +1,13 @@
-package PracticeProject1;
+package PracticeProject;
 
 import java.util.Scanner;
 
 public class ArithmeticCalculator {
+	private static Scanner sc;
+
 	public static void main(String[]args) {
 		int num1,num2,ans=0;
-		Scanner sc=new Scanner(System.in);
+		sc = new Scanner(System.in);
 		System.out.println("Enter the first number");
 		num1=sc.nextInt();
 		System.out.println("Enter the second number");

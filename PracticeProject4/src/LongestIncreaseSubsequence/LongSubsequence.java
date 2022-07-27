@@ -1,5 +1,4 @@
 package LongestIncreaseSubsequence;
-
 public class LongSubsequence {
 	static int incre_subseq(int my_arr[], int arr_len)
 	{
@@ -32,5 +31,4 @@ public class LongSubsequence {
 	      System.out.println("The longest increasing subsequence is " +  incre_subseq(my_arr, arr_len));
 	 
 	}
-	
 }

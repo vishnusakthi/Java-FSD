@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="CircularLinkedList.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
